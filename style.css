@@ -3,11 +3,12 @@
 body, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather';
-  font-size: 16px;
+  font-family: 'Comic Sans MS';
+  font-size: 24px;
   font-weight: 300;
-  color: #BFBFBF;
+  color: #23c20a;
   line-height: 50px;
+
 }
 
 header {
@@ -15,23 +16,27 @@ header {
   background: #7596B8;
   font-weight: 700;
   font-size: 24px;
+  text-align: center;
+  font-family: 'Garamond';
 }
 
 .container {
-  padding: 20px;
+  padding: 12px;
 }
 
 .item {
-  margin: 20px 0;
+  margin: 12px 0;
 }
 
 h2 {
-  color: #7596B8;
+  color: #f58700;
   font-weight: 700;
   border-bottom: 5px solid #7596B8;
   display: inline-block;
   line-height: 40px;
   margin-top: 28px;
+  font-family:'Helvetica';
+  font-size: 28px;
 }
 
 .rule {
@@ -41,9 +46,10 @@ h2 {
 }
 
 h3 {
-  color: #979797;
+  color: #000;
   font-weight: 700;
   margin-top: 20px;
+  font-family: 'Verdana';
 }
 
 .of {
@@ -66,18 +72,19 @@ h3, h4 {
 }
 
 h5 {
-  font-size: 10px;
-  color: #7596B8;
+  font-size: 16px;
+  color: #18238c;
   margin-top: 0;
   line-height: 32px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  font-family: 'Courier';
 }
 
 footer {
   background: #7596B8;
   color: #FFF;
-  margin-top: 60px;
+  margin-top: 6px;
 }
 
 footer h3 {
@@ -90,14 +97,11 @@ footer h4 {
 
 @media (min-width: 645px) {
 
-  body, h1, h2, h3, h4 {
-    font-size: 24px;
-  }
 
   header {
     padding: 30px 0;
-    margin-bottom: 16px;
-    font-size: 32px;
+    margin-bottom: 12px;
+    font-size: 50px;
   }
 
   .container {
@@ -106,7 +110,7 @@ footer h4 {
   }
 
   h5 {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   h3, h4 {
